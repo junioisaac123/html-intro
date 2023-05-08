@@ -1,0 +1,103 @@
+div { 
+    border-radius: 5px; 
+}
+img {
+    float: left;
+    width: 140px; /* ajusta el ancho de la imagen según tus necesidades */
+    height: 140px;
+    margin-right: 20px; /* añade un margen a la derecha para separar la imagen del texto */
+    }
+#encabezado { 
+    background-color: lightSkyBlue; 
+    width: 100%; 
+    height: 140px; 
+    border: 2px dotted lightblue; 
+    font-family: Times; 
+    margin-top: -20px; 
+    margin-bottom: 10px; }
+.izquierda { 
+    float: left; 
+    background-color: rgb(225, 243, 248); 
+    width: 48%; 
+    }
+.derecha { 
+    float: right; 
+    background-color: rgb(240, 240, 240); 
+    width: 50%; 
+    }
+.derecha .izquierda{
+    height: auto;
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+    border: 2px groove white;
+    
+}
+.parrafos{
+    display: flex;
+}
+.parrafo2{
+    margin-left: 100px;
+}
+
+
+#pie { 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    clear: both; 
+    background-color: rgb(235, 235, 235); 
+    width: 100%; 
+    height: 60px; 
+    border: 2px groove white; 
+    font-family: Times; }
+
+#email { 
+    float: right; 
+    text-decoration: none; 
+    color: white; 
+    margin: 10px; }
+
+#email:hover { 
+    font-weight: bold; 
+    color: gray; }
+
+#name { 
+    float: right; 
+    font-weight: bold; 
+    color: rgb(8, 8, 8); 
+    font-size: 3em; 
+    margin: 22px 10px 10px 10px; }
+
+#name:hover { 
+    color: white; }
+
+.content { 
+    margin: 10px; }
+
+h4 { 
+    color: lightSkyBlue; }
+
+#direccion { 
+    text-align: center; 
+    color: lightSkyBlue; }
+span{ 
+    color: lightSkyBlue; }
+
+span:hover { 
+    color: gray; 
+    font-weight: bold; }
+
+ol { 
+    list-style: none; 
+    margin: 20px 0 0 -20px; 
+    color: rgb(12, 12, 12); 
+    font-size: 1em; }
+
+a { 
+    text-decoration: none; 
+    color: rgb(230, 230, 230); }
+
+a:active { 
+    color: darkred; }
+
+#margen-top { 
+    margin-top: 12px; }
